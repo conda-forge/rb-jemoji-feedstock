@@ -1,5 +1,5 @@
 {% set name = "jemoji" %}
-{% set version = "0.10.2" %}
+{% set version = "0.11.1" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 9bd2769839c3884d593560adda24ecb1f0881c8ca8be991dbe575d07eb53f176
+  sha256: 061a0de9977de055290cdb9eac832dd703f2de30df5c868b832cc12d4b3ea7f9
 
 build:
   noarch: generic
@@ -23,7 +23,7 @@ requirements:
     - ruby
     - rb-gemoji >=3.0,<4
     - rb-html-pipeline >=2.2,<3
-    - rb-jekyll >=3.0,<4
+    - rb-jekyll >=3.0,<5
 
 test:
   commands:
