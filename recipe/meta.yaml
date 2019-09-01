@@ -23,7 +23,7 @@ requirements:
     - ruby
     - rb-gemoji >=3.0,<4
     - rb-html-pipeline >=2.2,<3
-    - rb-jekyll >=3.0,<4
+    - rb-jekyll >=3.0,<5
 
 test:
   commands:
