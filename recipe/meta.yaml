@@ -1,5 +1,5 @@
 {% set name = "jemoji" %}
-{% set version = "0.11.1" %}
+{% set version = "0.13.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 061a0de9977de055290cdb9eac832dd703f2de30df5c868b832cc12d4b3ea7f9
+  sha256: 5d4c3e8e2cbbb2b73997c31294f6f70c94e4d4fade039373e86835bcf5529e7c
 
 build:
   noarch: generic
